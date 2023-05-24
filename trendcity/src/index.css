@@ -1,0 +1,164 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+.navbar{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 123, 255);
+  border-bottom: 3px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+}
+
+.navbar ul{
+  display: flex;
+}
+
+.navbar li a{
+  font-size: 22px;
+  color: white;
+  padding: 0 50px;
+  text-decoration: none;
+}
+
+
+.cartItem{
+  display: flex;
+  align-items: center;
+}
+
+.cartItem img{
+  width: 48px;
+}
+
+.main-title{
+  text-align: center;
+}
+
+.productos{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 20px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.card-content h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.card-content p {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.card-content .button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.card-content .button:hover {
+  background-color: #0056b3;
+}
+
+.product-card {
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  width: 800px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-image img {
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.product-details{
+  padding-left: 50px;
+}
+
+.product-details h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.product-details p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-details .button {
+  margin-top: 15px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.agregar-al-carrito .button:hover,  .item-count button:hover{
+  background-color: #0056b3;
+}
+
+.item-count{
+  display: flex;
+  align-items: center;
+}
+
+.item-count p{
+  margin: 0 10px;
+}
+
+.item-count button{
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  width: 2rem;
+  height: 2rem;
+  color: #fff;
+  background-color: #007bff;
+}
